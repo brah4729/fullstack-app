@@ -11,10 +11,13 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/pg": "^8.20.0",
     "concurrently": "^9.2.1"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.7.0",
     "all": "^0.0.0",
-    "nextjs": "^0.0.3"
+    "nextjs": "^0.0.3",
+    "pg": "^8.20.0"
   }
 }
